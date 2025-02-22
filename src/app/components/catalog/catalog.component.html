@@ -1,0 +1,7 @@
+<h1>Carro de compras!</h1>
+<div class="row mb-3">
+  @for(product of products;track $index){
+    <div card-product [product]="product" class="col-3 ml-4 my-2"></div>
+ 
+  }
+</div>
